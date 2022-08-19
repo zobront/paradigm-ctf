@@ -10,7 +10,7 @@ This is a template for the Spearbit Rearguard team (or anyone else who finds it)
 ## Running Challenges
 
 - Create a folder in /src with the contracts for the challenge.
-- Copy the Template.t.sol file in /test and set it up for the challenge. Link in needed contracts (including mocks). It's already set up to fork the Paradigm network at the start of the test.
-- Write exploit in the test, using cast commands or console.logs in the test to aid as needed.
-- When the test succeeds, copy everything over to script/Exploitoor.s.sol.
+- Copy the `Template.t.sol` file in /test and set it up for the challenge. Link in needed contracts (including mocks). It's already set up to fork the Paradigm network at the start of the test.
+- Write exploit in the test (after `vm.createSelectFork(vm.rpcUrl("paradigm"));`). Use cast commands in terminal or console.logs in the test to aid as needed.
+- When the test succeeds, copy everything over to `script/Exploitoor.s.sol`, in between `startBroadcast()` and `stopBroadcast()`.
 - Call `bash exploit.sh` to run the script on the Paradigm network with your private key.
