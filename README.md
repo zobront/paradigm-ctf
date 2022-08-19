@@ -4,8 +4,8 @@ This is a template for the Spearbit Rearguard team (or anyone else who finds it)
 
 ## Set Up
 
-- Create a .env file in the root directory with PARADIGM_RPC_URL and PRIVATE_KEY (these will be used for submission scripts)
-- Add your Paradigm RPC to the foundry.toml file (this will be used to fork for tests)
+- Create a .env file in the root directory with `PARADIGM_RPC_URL` and `PRIVATE_KEY` (these will be used for submission scripts)
+- Add your Paradigm RPC to the `foundry.toml` file (this will be used to fork for tests)
 
 ## Running Challenges
 
