@@ -4,4 +4,4 @@ out = 'out'
 libs = ['lib']
 
 [rpc_endpoints]
-paradigm = "INSERT"
+paradigm = "${PARADIGM_RPC_URL}"
